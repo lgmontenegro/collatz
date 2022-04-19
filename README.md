@@ -11,10 +11,12 @@ This assessment test consists in:
 
 Unfortunately, I couldn't finish the Kubernetes Cluster and Service Expose topic. I wrote a script to build an image and run a application container using Docker (I'll keep trying Kubernetes anyway, thanks for this challenge).
 
-To run the applicantion, first you must clone this repository: `git clone `
+To run the applicantion, first you must clone this repository: `git clone git@github.com:lgmontenegro/collatz.git .`
 
 After clone the repository, enter the directory you cloned it (it is collatz by default) and run `chmod +x runme.sh && chmod +x collatz.sh`
 
 Now run `./runme.sh` to build and run the application and after that run `./collatz.sh N` where the N is the desirable number.
 
 You can also open you browser and try `http://localhost:8080/collatz/N` where N is the number you want to check the Collatz conjecture.
+
+**PS**: you **MUST** have Git and Docker installed.
